@@ -1,0 +1,154 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+.header {
+    background-color: #001f3f;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.header .menu {
+    display: flex;
+    gap: 15px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.header .profile-icon {
+    background-color: #FF8C00;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Content Styles */
+.content {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.content h1 span {
+    color: #FF8C00;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Placement Course Styles */
+.placement-course {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.placement-course img {
+    width: 400px;
+}
+
+.placement-course ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.coming-soon {
+    color: red;
+    font-weight: bold;
+}
+
+/* Course Listings Styles */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-listing {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 23%;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.course-card img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.course-card h3 {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.course-card p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.course-card .rating {
+    color: #f39c12;
+}
+
+.course-card .price {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.course-card .free {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+/* Footer Styles */
